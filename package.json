@@ -1,0 +1,23 @@
+{
+  "name": "sports-welfare-planner",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && node scripts/check-public-bundle.mjs",
+    "preview": "vite preview",
+    "test": "vitest run --exclude tests/e2e/**",
+    "test:ui": "playwright test"
+  },
+  "dependencies": {
+    "papaparse": "^5.5.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/papaparse": "^5.3.16",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vitest": "^4.0.18"
+  }
+}

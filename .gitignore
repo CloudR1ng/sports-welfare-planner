@@ -1,0 +1,22 @@
+# Contest data redistribution has not been established.
+/data/raw/
+/data/processed/
+/KS_AREA_ACCTO_SPORTS_VOUCH_PRCUSE_INFO_*.csv
+*.hwp
+*.hwpx
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+playwright-report/
+test-results/
+__pycache__/
+# Local evidence and data-derived documents/tests remain private.
+/data/
+/tests/
+/scripts/*.py
+/기획서.md
+/개발_실행_프롬프트.md
+/deployment_report.md
+/private/
